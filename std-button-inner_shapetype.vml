@@ -1,6 +1,6 @@
 <?import namespace="v" implementation="#default#VML" ?>
 <v:shapetype
-	id='i:button'
+	id='std:button'
 	adj='4'
 	strokecolor='#666'
 	coordorigin='0 0'
