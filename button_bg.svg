@@ -5,8 +5,8 @@
 			x1="0%" y1="0%"
 			x2="0%" y2="100%"
 			>
-			<stop offset="0%" stop-color="#eee" />
-			<stop offset="100%" stop-color="#ccc" />
+			<stop offset="0%" stop-color="#fff" />
+			<stop offset="100%" stop-color="#ddd" />
 		</linearGradient>
 	</defs>
 	<rect width="100%" height="100%" fill="url(#gradient)" />

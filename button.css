@@ -2,6 +2,7 @@ button {
 	border: none;
 	background: none;
 	display: inline-block;
+	margin: 0;
     $margin: 0 0 0 .2em;
     overflow: hidden;
     $overflow: visible;
@@ -21,7 +22,7 @@ button {
 
 	top: -1px;
 
-    padding: .2em .6em;
+    padding: .2em .4em;
     padding: .35em .6em .1em .8em\9;
 
 	font-size: 14px;
@@ -37,22 +38,22 @@ button {
     border: 1px solid #666;
     border: none\9;
 
-	background: url( '../../iface/button/button_bg.svg' ) #ccc;
-	background: -moz-linear-gradient( top, #eee, #ccc );
-	background: -webkit-gradient( linear, left top, left bottom, from( #eee ), to( #ccc ) );
+	background: url( '../../iface/button/button_bg.svg' ) #ddd;
+	background: -moz-linear-gradient( top, #fff, #ddd );
+	background: -webkit-gradient( linear, left top, left bottom, from( #fff ), to( #ddd ) );
     background: none\9;
 
-	-webkit-box-shadow: 1px 1px 1px black;
-	-moz-box-shadow: 1px 1px 1px black;
-	box-shadow: 1px 1px 1px black;
+	-webkit-box-shadow: 1px 1px 1px #333;
+	-moz-box-shadow: 1px 1px 1px #333;
+	box-shadow: 1px 1px 1px #333;
 }
 
 button:hover .i-button {
 	top: -2px;
 	left: -1px;
-	-webkit-box-shadow: 2px 2px 2px black;
-	-moz-box-shadow: 2px 2px 2px black;
-	box-shadow: 2px 2px 2px black;
+	-webkit-box-shadow: 2px 2px 2px #333;
+	-moz-box-shadow: 2px 2px 2px #333;
+	box-shadow: 2px 2px 2px #333;
 }
 
 button:active .i-button {
